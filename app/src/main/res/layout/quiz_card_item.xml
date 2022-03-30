@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="340dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+
+    app:cardCornerRadius="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:id="@+id/questionTextView"
+            android:textSize="30sp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/optionOneBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/questionTextView"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#E3EFF1"
+            android:gravity="center"
+            android:text="Option One"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/optionTwoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/optionOneBtn"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#E3EFF1"
+            android:gravity="center"
+            android:text="Option Two"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/optionThreeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/optionTwoBtn"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#E3EFF1"
+            android:gravity="center"
+            android:text="Option Three"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/optionFourBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/optionThreeBtn"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#E3EFF1"
+            android:gravity="center"
+            android:text="Option Four"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
